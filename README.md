@@ -6,7 +6,7 @@
 
 ## 簡介
 
-日本和弦 是一款爲 ANSI 或 ISO 鍵盤設計得多鍵並擊輸入日本語的方法，
+日本和弦 是一款爲 ANSI 或 ISO 鍵盤設計的多鍵並擊輸入日本語的方法，
 
 本方案受啓發自 [佛振](https://github.com/lotem) 的 [宮保拼音](https://github.com/rime/home/wiki/ComboPinyin)。
 
