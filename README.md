@@ -18,6 +18,8 @@
 
 輸入的感受如同左手彈奏根音，右手搭配上優美的旋律。
 
+![Keyboard Layout](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/layout.png)
+
 其解決了一些非日本語配列鍵盤上日本語的輸入問題，例如：
 - 成音拍鼻音 ん 和成音拍阻音（促音）っ 有單獨按鍵。
 - 輸入節奏與音節節奏一致。
