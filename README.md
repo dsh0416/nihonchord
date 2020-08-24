@@ -126,3 +126,5 @@ Public Domain Dataです。使用・変更・配布に関しては一切の制�
 ## 安裝
 
 TODO
+
+![Example](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/example.gif)
