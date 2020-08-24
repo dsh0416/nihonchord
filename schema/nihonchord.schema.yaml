@@ -109,6 +109,10 @@ chord_composer:
     - xform/^kAD$/gya'/
     - xform/^kUD$/gyu'/
     - xform/^kOD$/gyo'/
+    - xform/^kiH$/ngi'/
+    - xform/^kAH$/ngya'/
+    - xform/^kUH$/ngyu'/
+    - xform/^kOH$/ngyo'/
 
     - xform/^sa$/sa'/
     - xform/^si$/shi'/
