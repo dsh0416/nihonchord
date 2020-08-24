@@ -1,0 +1,164 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: nihonchord
+  name: 日本和弦
+  version: "0.0.1"
+  author:
+    - Delton Ding <dsh0416@gmail.com>
+  description: |
+    並擊日文輸入
+    https://github.com/dsh0416/nihonchord
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 日文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。、, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - chord_composer  # 實現並擊按鍵處理
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+editor:
+  bindings:
+    BackSpace: back_syllable
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - erase/^xx$/
+
+chord_composer:
+  alphabet: "uiophjklnmqwerasdzxfcv"
+  algebra:
+    - 'xlit|uiophjklnmqwerasdzxfcv|ZysthwkrnmAUONauoieLCD|'
+
+    - xform/^ZN$/n/
+    - xform/^Za$/a/
+    - xform/^Zi$/i/
+    - xform/^Zu$/u/
+    - xform/^Ze$/e/
+    - xform/^Zo$/o/
+    - xform/^ZA$/ya/
+    - xform/^ZU$/yu/
+    - xform/^ZO$/yo/
+
+    - xform/^ka$/ka/
+    - xform/^ki$/ki/
+    - xform/^ku$/ku/
+    - xform/^ke$/ke/
+    - xform/^ko$/ko/
+    - xform/^kA$/kya/
+    - xform/^kU$/kyu/
+    - xform/^kO$/kyo/
+
+    - xform/^sa$/sa/
+    - xform/^si$/shi/
+    - xform/^su$/su/
+    - xform/^se$/se/
+    - xform/^so$/so/
+    - xform/^sA$/sha/
+    - xform/^sU$/shu/
+    - xform/^sO$/sho/
+
+    - xform/^ta$/ta/
+    - xform/^ti$/chi/
+    - xform/^tu$/tsu/
+    - xform/^te$/te/
+    - xform/^to$/to/
+    - xform/^tA$/cha/
+    - xform/^tU$/chu/
+    - xform/^tO$/cho/
+
+    - xform/^na$/na/
+    - xform/^ni$/ni/
+    - xform/^nu$/nu/
+    - xform/^ne$/ne/
+    - xform/^no$/no/
+    - xform/^nA$/nya/
+    - xform/^nU$/nyu/
+    - xform/^nO$/nyo/
+
+    - xform/^ha$/ha/
+    - xform/^hi$/hi/
+    - xform/^hu$/hu/
+    - xform/^he$/he/
+    - xform/^ho$/ho/
+    - xform/^hA$/hya/
+    - xform/^hU$/hyu/
+    - xform/^hO$/hyo/
+
+    - xform/^ma$/ma/
+    - xform/^mi$/mi/
+    - xform/^mu$/mu/
+    - xform/^me$/me/
+    - xform/^mo$/mo/
+    - xform/^mA$/mya/
+    - xform/^mU$/myu/
+    - xform/^mO$/myo/
+
+    - xform/^ya$/ya/
+    - xform/^yi$/yi/
+    - xform/^yu$/yu/
+    - xform/^ye$/ye/
+    - xform/^yo$/yo/
+
+    - xform/^ra$/ra/
+    - xform/^ri$/ri/
+    - xform/^ru$/ru/
+    - xform/^re$/re/
+    - xform/^ro$/ro/
+    - xform/^rA$/rya/
+    - xform/^rU$/ryu/
+    - xform/^rO$/ryo/
+
+    - xform/^wa$/wa/
+    - xform/^wi$/wi/
+    - xform/^wu$/wu/
+    - xform/^we$/we/
+    - xform/^wo$/wo/
+  output_format:
+    # 消除不構成合法音節的並擊組合
+    # - "erase/^([A-Za-z]+)$/"
+  prompt_format:
+    - "xform/^(.*)$/[$1]/"
+
+translator:
+  dictionary: nihongo-r
+  prism: nihonchord
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
