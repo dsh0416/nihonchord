@@ -48,7 +48,7 @@ engine:
 
 editor:
   bindings:
-    BackSpace: back_syllable
+    BackSpace: back
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -214,7 +214,7 @@ chord_composer:
     - "erase/^([Zaeiouywrnm]+[D])$/" # 不能濁化的音
     - "erase/^([Zaeiouystwkrnm]+[H])$/" # 不能半濁化的音
     - "erase/^([Z][ysthwkrnm])$/" # 零声母不能接輔音
-  prompt_format:
+  prompt_format:
     - "xform/^(.*)$/[$1]/"
 
 translator:
