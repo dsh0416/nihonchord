@@ -69,16 +69,14 @@ chord_composer:
     # D: 濁音
 
     - xform/^S$/ltsu/
-  
-    - xform/^S$/ltsu/
-    - xform/^aL$/la/
-    - xform/^iL$/li/
-    - xform/^uL$/lu/
-    - xform/^eL$/le/
-    - xform/^oL$/lo/
-    - xform/^AL$/lya/
-    - xform/^UL$/lyu/
-    - xform/^OL$/lyo/
+    - xform/^ZaL$/la/
+    - xform/^ZiL$/li/
+    - xform/^ZuL$/lu/
+    - xform/^ZeL$/le/
+    - xform/^ZoL$/lo/
+    - xform/^ZAL$/lya/
+    - xform/^ZUL$/lyu/
+    - xform/^ZOL$/lyo/
     - xform/^kaL$/lka/
     - xform/^keL$/lke/
     - xform/^tuL$/ltsu/
