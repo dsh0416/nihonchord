@@ -41,6 +41,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
+    - reverse_lookup_translator
   filters:
     - simplifier
     - uniquifier
@@ -224,3 +225,15 @@ key_binder:
 
 recognizer:
   import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+
+punctuator:
+  half_shape:
+    "," : ["、", "＜"]
+    "." : ["。", "＞"]
+    "/" : ["・", "？"]
+    ";" : ["；", "："]
+    "[" : ["「", "『"]
+    "]" : ["」", "』"]
+
