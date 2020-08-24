@@ -6,6 +6,7 @@ use_preset_vocabulary: false
 ...
 
 っ	ltsu
+ッ	ltsu
 ぁ	la
 ぃ	li
 ぅ	lu
@@ -17,6 +18,15 @@ use_preset_vocabulary: false
 ヵ	lka
 ヶ	lke
 ゎ	lwa
+ァ	la
+ィ	li
+ゥ	lu
+ェ	le
+ォ	lo
+ャ	lya
+ュ	lyu
+ョ	lyo
+ヮ	lwa
 あ	a
 い	i
 う	u
@@ -189,7 +199,6 @@ use_preset_vocabulary: false
 ロﾟ	rro
 ワ	wa
 ヰ	wu li
-ヱ	wu we
+ヱ	wu le
 ヲ	wo
 ン	n
-愛	a i

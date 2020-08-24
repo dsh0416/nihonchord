@@ -81,7 +81,6 @@ chord_composer:
     - xform/^tuL$/ltsu'/
     - xform/^tuL$/lwa'/
 
-
     - xform/^ZN$/n'/
     - xform/^N$/n'/
     - xform/^Za$/a'/
@@ -107,15 +106,11 @@ chord_composer:
     - xform/^kuD$/gu'/
     - xform/^keD$/ge'/
     - xform/^koD$/go'/
-    - xform/^kAD$/gi'lya'/
-    - xform/^kUD$/gi'lyu'/
-    - xform/^kOD$/go'lyo'/
+    - xform/^kaH$/nga'/
     - xform/^kiH$/ngi'/
     - xform/^kuH$/ngu'/
-    - xform/^kAH$/ngi'lya'/
-    - xform/^kUH$/ngi'lya'/
-    - xform/^kOH$/ngi'lyo'/
-
+    - xform/^keH$/nge'/
+    - xform/^koH$/ngo'/
     - xform/^sa$/sa'/
     - xform/^si$/shi'/
     - xform/^su$/su'/
@@ -129,10 +124,7 @@ chord_composer:
     - xform/^suD$/zu'/
     - xform/^seD$/ze'/
     - xform/^soD$/zo'/
-    - xform/^sAD$/ji'lya'/
-    - xform/^sUD$/ji'lyu'/
-    - xform/^sOD$/ji'lyo'/
-
+    - xform/^seH$/ce'/
     - xform/^ta$/ta'/
     - xform/^ti$/chi'/
     - xform/^tu$/tsu'/
@@ -216,7 +208,7 @@ chord_composer:
     - xform/^wa$/wa'/
     - xform/^wi$/wu'li'/
     - xform/^wu$/u'/
-    - xform/^we$/wu'we'/
+    - xform/^we$/wu'le'/
     - xform/^wo$/wo'/
   output_format:
     - "erase/^([A-Za-z]+)$/"
@@ -228,9 +220,105 @@ translator:
   prism: nihonchord
   spelling_hints: 4
   comment_format:
-    - 'xlit|q|ー|'
-  preedit_format:
-    - 'xlit|q|ー|'
+    - xform/(^|\s)ltsu/つ/
+    - xform/(^|\s)la/ぁ/
+    - xform/(^|\s)li/ぃ/
+    - xform/(^|\s)lu/ぅ/
+    - xform/(^|\s)le/ぇ/
+    - xform/(^|\s)lo/ぉ/
+    - xform/(^|\s)lya/ゃ/
+    - xform/(^|\s)lyu/ゅ/
+    - xform/(^|\s)lyo/ょ/
+    - xform/(^|\s)lka/ヵ/
+    - xform/(^|\s)lke/ヶ/
+    - xform/(^|\s)ltsu/っ/
+    - xform/(^|\s)lwa/ゎ/
+    - xform/(^|\s)n/ん/
+    - xform/(^|\s)a/あ/
+    - xform/(^|\s)i/い/
+    - xform/(^|\s)u/う/
+    - xform/(^|\s)e/え/
+    - xform/(^|\s)o/お/
+    - xform/(^|\s)ya/や/
+    - xform/(^|\s)yu/ゆ/
+    - xform/(^|\s)yo/よ/
+    - xform/(^|\s)vu/ゔ/
+    - xform/(^|\s)ka/か/
+    - xform/(^|\s)ki/き/
+    - xform/(^|\s)ku/く/
+    - xform/(^|\s)ke/け/
+    - xform/(^|\s)ko/こ/
+    - xform/(^|\s)ga/が/
+    - xform/(^|\s)gi/ぎ/
+    - xform/(^|\s)gu/ぐ/
+    - xform/(^|\s)ge/げ/
+    - xform/(^|\s)go/ご/
+    - xform/(^|\s)nga/かﾟ/
+    - xform/(^|\s)ngi/きﾟ/
+    - xform/(^|\s)ngu/くﾟ/
+    - xform/(^|\s)nge/けﾟ/
+    - xform/(^|\s)ngo/こﾟ/
+    - xform/(^|\s)sa/さ/
+    - xform/(^|\s)shi/し/
+    - xform/(^|\s)su/す/
+    - xform/(^|\s)se/せ/
+    - xform/(^|\s)so/そ/
+    - xform/(^|\s)za/ざ/
+    - xform/(^|\s)ji/じ/
+    - xform/(^|\s)zu/ず/
+    - xform/(^|\s)ze/ぜ/
+    - xform/(^|\s)zo/ぞ/
+    - xform/(^|\s)ce/せﾟ/
+    - xform/(^|\s)ta/た/
+    - xform/(^|\s)chi/ち/
+    - xform/(^|\s)tsu/つ/
+    - xform/(^|\s)te/て/
+    - xform/(^|\s)to/と/
+    - xform/(^|\s)da/だ/
+    - xform/(^|\s)ji/じ/
+    - xform/(^|\s)zu/ず/
+    - xform/(^|\s)de/で/
+    - xform/(^|\s)do/ど/
+    - xform/(^|\s)na/な/
+    - xform/(^|\s)ni/に/
+    - xform/(^|\s)nu/ぬ/
+    - xform/(^|\s)ne/ね/
+    - xform/(^|\s)no/の/
+    - xform/(^|\s)ha/は/
+    - xform/(^|\s)hi/ひ/
+    - xform/(^|\s)hu/ふ/
+    - xform/(^|\s)he/へ/
+    - xform/(^|\s)ho/ほ/
+    - xform/(^|\s)ba/ば/
+    - xform/(^|\s)bi/び/
+    - xform/(^|\s)bu/ぶ/
+    - xform/(^|\s)be/べ/
+    - xform/(^|\s)bo/ぼ/
+    - xform/(^|\s)pa/ぱ/
+    - xform/(^|\s)pi/ぴ/
+    - xform/(^|\s)pu/ぷ/
+    - xform/(^|\s)pe/ぺ/
+    - xform/(^|\s)po/ぽ/
+    - xform/(^|\s)ma/ま/
+    - xform/(^|\s)mi/み/
+    - xform/(^|\s)mu/む/
+    - xform/(^|\s)me/め/
+    - xform/(^|\s)mo/も/
+    - xform/(^|\s)ya/や/
+    - xform/(^|\s)yu/ゆ/
+    - xform/(^|\s)yo/よ/
+    - xform/(^|\s)ra/ら/
+    - xform/(^|\s)ri/り/
+    - xform/(^|\s)ru/る/
+    - xform/(^|\s)re/れ/
+    - xform/(^|\s)ro/ろ/
+    - xform/(^|\s)rra/らﾟ/
+    - xform/(^|\s)rri/りﾟ/
+    - xform/(^|\s)rru/るﾟ/
+    - xform/(^|\s)rre/れﾟ/
+    - xform/(^|\s)rro/ろﾟ/
+    - xform/(^|\s)wa/わ/
+    - xform/(^|\s)wo/を/
 
 punctuator:
   import_preset: default
