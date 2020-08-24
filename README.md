@@ -125,6 +125,8 @@ Public Domain Dataです。使用・変更・配布に関しては一切の制�
 
 ## 安裝
 
-TODO
+- 將 `schema/nihonchord.dict.yaml` 拷貝到你的 Rime 設置
+- 將 `schema/nihonchord.schema.yaml` 拷貝到你的 Rime 設置
+- 將 `- nihonchord` 加入到你 `default.custom.yaml` 的 `schema_list` 中
 
 ![Example](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/example.gif)
