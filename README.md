@@ -20,7 +20,7 @@
 
 輸入的感受如同左手彈奏根音，右手搭配上優美的旋律。
 
-![Keyboard Layout](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/layout.png)
+![Example](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/example.gif)
 
 其解決了一些非日本語配列鍵盤上日本語的輸入問題，例如：
 - 成音拍鼻音 ん 和成音拍阻音（促音）っ 有單獨按鍵。
@@ -123,7 +123,7 @@ Public Domain Dataです。使用・変更・配布に関しては一切の制�
 勝手ながら、沖縄辞書に寄贈された辞書も in the Public Domain' 扱いとさせていただきます。
 ```
 
-## 安裝
+## 用法
 
 - 將 `schema/nihonchord.dict.yaml` 拷貝到你的 Rime 設置
 - 將 `schema/nihonchord.schema.yaml` 拷貝到你的 Rime 設置
@@ -131,4 +131,4 @@ Public Domain Dataです。使用・変更・配布に関しては一切の制�
 
 **請確保使用 繁體 模式，繁體模式下詞典已經使用了日本漢字，簡體模式會被 opencc 錯誤轉換。**
 
-![Example](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/example.gif)
+![Keyboard Layout](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/layout.png)
