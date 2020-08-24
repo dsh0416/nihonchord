@@ -92,109 +92,111 @@ chord_composer:
     - xform/^ZA$/ya'/
     - xform/^ZU$/yu'/
     - xform/^ZO$/yo'/
+    - xform/^uD$/vu'/
 
     - xform/^ka$/ka'/
     - xform/^ki$/ki'/
     - xform/^ku$/ku'/
     - xform/^ke$/ke'/
     - xform/^ko$/ko'/
-    - xform/^kA$/kya'/
-    - xform/^kU$/kyu'/
-    - xform/^kO$/kyo'/
+    - xform/^kA$/ki'lya'/
+    - xform/^kU$/ki'lyu'/
+    - xform/^kO$/ki'lyo'/
     - xform/^kaD$/ga'/
     - xform/^kiD$/gi'/
     - xform/^kuD$/gu'/
     - xform/^keD$/ge'/
     - xform/^koD$/go'/
-    - xform/^kAD$/gya'/
-    - xform/^kUD$/gyu'/
-    - xform/^kOD$/gyo'/
+    - xform/^kAD$/gi'lya'/
+    - xform/^kUD$/gi'lyu'/
+    - xform/^kOD$/go'lyo'/
     - xform/^kiH$/ngi'/
-    - xform/^kAH$/ngya'/
-    - xform/^kUH$/ngyu'/
-    - xform/^kOH$/ngyo'/
+    - xform/^kuH$/ngu'/
+    - xform/^kAH$/ngi'lya'/
+    - xform/^kUH$/ngi'lya'/
+    - xform/^kOH$/ngi'lyo'/
 
     - xform/^sa$/sa'/
     - xform/^si$/shi'/
     - xform/^su$/su'/
     - xform/^se$/se'/
     - xform/^so$/so'/
-    - xform/^sA$/sha'/
-    - xform/^sU$/shu'/
-    - xform/^sO$/sho'/
+    - xform/^sA$/shi'lya'/
+    - xform/^sU$/shi'lyu'/
+    - xform/^sO$/shi'lyo'/
     - xform/^saD$/za'/
     - xform/^siD$/ji'/
     - xform/^suD$/zu'/
     - xform/^seD$/ze'/
     - xform/^soD$/zo'/
-    - xform/^sAD$/ja'/
-    - xform/^sUD$/ju'/
-    - xform/^sOD$/jo'/
+    - xform/^sAD$/ji'lya'/
+    - xform/^sUD$/ji'lyu'/
+    - xform/^sOD$/ji'lyo'/
 
     - xform/^ta$/ta'/
     - xform/^ti$/chi'/
     - xform/^tu$/tsu'/
     - xform/^te$/te'/
     - xform/^to$/to'/
-    - xform/^tA$/cha'/
-    - xform/^tU$/chu'/
-    - xform/^tO$/cho'/
+    - xform/^tA$/chi'lya'/
+    - xform/^tU$/chi'lyu'/
+    - xform/^tO$/chi'lyo'/
     - xform/^taD$/da'/
     - xform/^tiD$/ji'/
     - xform/^tuD$/zu'/
     - xform/^teD$/de'/
     - xform/^toD$/do'/
-    - xform/^tAD$/dya'/
-    - xform/^tUD$/dyu'/
-    - xform/^tOD$/dyo'/
+    - xform/^tAD$/da'lya'/
+    - xform/^tUD$/da'lyu'/
+    - xform/^tOD$/da'lyo'/
 
     - xform/^na$/na'/
     - xform/^ni$/ni'/
     - xform/^nu$/nu'/
     - xform/^ne$/ne'/
     - xform/^no$/no'/
-    - xform/^nA$/nya'/
-    - xform/^nU$/nyu'/
-    - xform/^nO$/nyo'/
+    - xform/^nA$/ni'lya'/
+    - xform/^nU$/ni'lyu'/
+    - xform/^nO$/ni'lyo'/
 
     - xform/^ha$/ha'/
     - xform/^hi$/hi'/
     - xform/^hu$/hu'/
     - xform/^he$/he'/
     - xform/^ho$/ho'/
-    - xform/^hA$/hya'/
-    - xform/^hU$/hyu'/
-    - xform/^hO$/hyo'/
+    - xform/^hA$/hi'lya'/
+    - xform/^hU$/hi'lyu'/
+    - xform/^hO$/hi'lyo'/
     - xform/^haD$/ba'/
     - xform/^hiD$/bi'/
     - xform/^huD$/bu'/
     - xform/^heD$/be'/
     - xform/^hoD$/bo'/
-    - xform/^hAD$/bya'/
-    - xform/^hUD$/byu'/
-    - xform/^hOD$/byo'/
+    - xform/^hAD$/bi'lya'/
+    - xform/^hUD$/bi'lyu'/
+    - xform/^hOD$/bi'lyo'/
     - xform/^haH$/pa'/
     - xform/^hiH$/pi'/
     - xform/^huH$/pu'/
     - xform/^heH$/pe'/
     - xform/^hoH$/po'/
-    - xform/^hAH$/pya'/
-    - xform/^hUH$/pyu'/
-    - xform/^hOH$/pyo'/
+    - xform/^hAH$/pi'lya'/
+    - xform/^hUH$/pi'lyu'/
+    - xform/^hOH$/pi'lyo'/
 
     - xform/^ma$/ma'/
     - xform/^mi$/mi'/
     - xform/^mu$/mu'/
     - xform/^me$/me'/
     - xform/^mo$/mo'/
-    - xform/^mA$/mya'/
-    - xform/^mU$/myu'/
-    - xform/^mO$/myo'/
+    - xform/^mA$/mi'lya'/
+    - xform/^mU$/mi'lyu'/
+    - xform/^mO$/mi'lyo'/
 
     - xform/^ya$/ya'/
-    - xform/^yi$/yi'/
+    - xform/^yi$/i'/
     - xform/^yu$/yu'/
-    - xform/^ye$/ye'/
+    - xform/^ye$/e'/
     - xform/^yo$/yo'/
 
     - xform/^ra$/ra'/
@@ -202,14 +204,19 @@ chord_composer:
     - xform/^ru$/ru'/
     - xform/^re$/re'/
     - xform/^ro$/ro'/
-    - xform/^rA$/rya'/
-    - xform/^rU$/ryu'/
-    - xform/^rO$/ryo'/
+    - xform/^rA$/ri'lya'/
+    - xform/^rU$/ri'lyu'/
+    - xform/^rO$/ri'lyo'/
+    - xform/^raH$/rra'/
+    - xform/^riH$/rri'/
+    - xform/^ruH$/rru'/
+    - xform/^reH$/rre'/
+    - xform/^roH$/rro'/
 
     - xform/^wa$/wa'/
-    - xform/^wi$/wi'/
-    - xform/^wu$/wu'/
-    - xform/^we$/we'/
+    - xform/^wi$/wu'li'/
+    - xform/^wu$/u'/
+    - xform/^we$/wu'we'/
     - xform/^wo$/wo'/
   output_format:
     - "erase/^([A-Za-z]+)$/"
