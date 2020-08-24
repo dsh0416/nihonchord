@@ -56,9 +56,19 @@ speller:
     - erase/^xx$/
 
 chord_composer:
-  alphabet: "uiophjklnmqwerasdzxfcv"
+  alphabet: "uiophjklnmqwerasdzxfgcv"
   algebra:
-    - 'xlit|uiophjklnmqwerasdzxfcv|ZysthwkrnmAUONauoieLCD|'
+    - 'xlit|uiophjklnmqwerasdzxfgcv|ZysthwkrnmAUONauoieHSLD|'
+    # Z: 零声母
+    # A: 拗音 ya
+    # U: 拗音 yu
+    # O: 拗音 yo
+    # H: 半濁音
+    # S: 促音
+    # L: ちさい
+    # D: 濁音
+
+    - xform/^S$/ltsu/
 
     - xform/^ZN$/n/
     - xform/^Za$/a/
@@ -78,6 +88,14 @@ chord_composer:
     - xform/^kA$/kya/
     - xform/^kU$/kyu/
     - xform/^kO$/kyo/
+    - xform/^kaD$/ga/
+    - xform/^kiD$/gi/
+    - xform/^kuD$/gu/
+    - xform/^keD$/ge/
+    - xform/^koD$/go/
+    - xform/^kAD$/gya/
+    - xform/^kUD$/gyu/
+    - xform/^kOD$/gyo/
 
     - xform/^sa$/sa/
     - xform/^si$/shi/
@@ -87,6 +105,14 @@ chord_composer:
     - xform/^sA$/sha/
     - xform/^sU$/shu/
     - xform/^sO$/sho/
+    - xform/^saD$/za/
+    - xform/^siD$/ji/
+    - xform/^suD$/zu/
+    - xform/^seD$/ze/
+    - xform/^soD$/zo/
+    - xform/^sAD$/ja/
+    - xform/^sUD$/ju/
+    - xform/^sOD$/jo/
 
     - xform/^ta$/ta/
     - xform/^ti$/chi/
@@ -96,6 +122,14 @@ chord_composer:
     - xform/^tA$/cha/
     - xform/^tU$/chu/
     - xform/^tO$/cho/
+    - xform/^taD$/da/
+    - xform/^tiD$/ji/
+    - xform/^tuD$/zu/
+    - xform/^teD$/de/
+    - xform/^toD$/do/
+    - xform/^tAD$/dya/
+    - xform/^tUD$/dyu/
+    - xform/^tOD$/dyo/
 
     - xform/^na$/na/
     - xform/^ni$/ni/
@@ -114,6 +148,22 @@ chord_composer:
     - xform/^hA$/hya/
     - xform/^hU$/hyu/
     - xform/^hO$/hyo/
+    - xform/^haD$/ba/
+    - xform/^hiD$/bi/
+    - xform/^huD$/bu/
+    - xform/^heD$/be/
+    - xform/^hoD$/bo/
+    - xform/^hAD$/bya/
+    - xform/^hUD$/byu/
+    - xform/^hOD$/byo/
+    - xform/^haH$/pa/
+    - xform/^hiH$/pi/
+    - xform/^huH$/pu/
+    - xform/^heH$/pe/
+    - xform/^hoH$/po/
+    - xform/^hAH$/pya/
+    - xform/^hUH$/pyu/
+    - xform/^hOH$/pyo/
 
     - xform/^ma$/ma/
     - xform/^mi$/mi/
@@ -145,7 +195,6 @@ chord_composer:
     - xform/^we$/we/
     - xform/^wo$/wo/
   output_format:
-    # 消除不構成合法音節的並擊組合
     # - "erase/^([A-Za-z]+)$/"
   prompt_format:
     - "xform/^(.*)$/[$1]/"
