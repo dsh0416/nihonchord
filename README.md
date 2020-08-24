@@ -129,4 +129,6 @@ Public Domain Dataです。使用・変更・配布に関しては一切の制�
 - 將 `schema/nihonchord.schema.yaml` 拷貝到你的 Rime 設置
 - 將 `- nihonchord` 加入到你 `default.custom.yaml` 的 `schema_list` 中
 
+**請確保使用 繁體 模式，繁體模式下詞典已經使用了日本漢字，簡體模式會被 opencc 錯誤轉換。**
+
 ![Example](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/example.gif)
