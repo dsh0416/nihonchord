@@ -48,7 +48,7 @@ engine:
 
 editor:
   bindings:
-    BackSpace: back
+    BackSpace: back_syllable
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -67,158 +67,153 @@ chord_composer:
     # L: ちさい
     # D: 濁音
 
-    - xform/^S$/ltsu/
-    - xform/^ZaL$/la/
-    - xform/^ZiL$/li/
-    - xform/^ZuL$/lu/
-    - xform/^ZeL$/le/
-    - xform/^ZoL$/lo/
-    - xform/^ZAL$/lya/
-    - xform/^ZUL$/lyu/
-    - xform/^ZOL$/lyo/
-    - xform/^kaL$/lka/
-    - xform/^keL$/lke/
-    - xform/^tuL$/ltsu/
-    - xform/^tuL$/lwa/
+    - xform/^S$/ltsu'/
+    - xform/^ZaL$/la'/
+    - xform/^ZiL$/li'/
+    - xform/^ZuL$/lu'/
+    - xform/^ZeL$/le'/
+    - xform/^ZoL$/lo'/
+    - xform/^ZAL$/lya'/
+    - xform/^ZUL$/lyu'/
+    - xform/^ZOL$/lyo'/
+    - xform/^kaL$/lka'/
+    - xform/^keL$/lke'/
+    - xform/^tuL$/ltsu'/
+    - xform/^tuL$/lwa'/
 
 
-    - xform/^ZN$/n/
-    - xform/^N$/n/
-    - xform/^Za$/a/
-    - xform/^Zi$/i/
-    - xform/^Zu$/u/
-    - xform/^Ze$/e/
-    - xform/^Zo$/o/
-    - xform/^ZA$/ya/
-    - xform/^ZU$/yu/
-    - xform/^ZO$/yo/
+    - xform/^ZN$/n'/
+    - xform/^N$/n'/
+    - xform/^Za$/a'/
+    - xform/^Zi$/i'/
+    - xform/^Zu$/u'/
+    - xform/^Ze$/e'/
+    - xform/^Zo$/o'/
+    - xform/^ZA$/ya'/
+    - xform/^ZU$/yu'/
+    - xform/^ZO$/yo'/
 
-    - xform/^ka$/ka/
-    - xform/^ki$/ki/
-    - xform/^ku$/ku/
-    - xform/^ke$/ke/
-    - xform/^ko$/ko/
-    - xform/^kA$/kya/
-    - xform/^kU$/kyu/
-    - xform/^kO$/kyo/
-    - xform/^kaD$/ga/
-    - xform/^kiD$/gi/
-    - xform/^kuD$/gu/
-    - xform/^keD$/ge/
-    - xform/^koD$/go/
-    - xform/^kAD$/gya/
-    - xform/^kUD$/gyu/
-    - xform/^kOD$/gyo/
+    - xform/^ka$/ka'/
+    - xform/^ki$/ki'/
+    - xform/^ku$/ku'/
+    - xform/^ke$/ke'/
+    - xform/^ko$/ko'/
+    - xform/^kA$/kya'/
+    - xform/^kU$/kyu'/
+    - xform/^kO$/kyo'/
+    - xform/^kaD$/ga'/
+    - xform/^kiD$/gi'/
+    - xform/^kuD$/gu'/
+    - xform/^keD$/ge'/
+    - xform/^koD$/go'/
+    - xform/^kAD$/gya'/
+    - xform/^kUD$/gyu'/
+    - xform/^kOD$/gyo'/
 
-    - xform/^sa$/sa/
-    - xform/^si$/shi/
-    - xform/^su$/su/
-    - xform/^se$/se/
-    - xform/^so$/so/
-    - xform/^sA$/sha/
-    - xform/^sU$/shu/
-    - xform/^sO$/sho/
-    - xform/^saD$/za/
-    - xform/^siD$/ji/
-    - xform/^suD$/zu/
-    - xform/^seD$/ze/
-    - xform/^soD$/zo/
-    - xform/^sAD$/ja/
-    - xform/^sUD$/ju/
-    - xform/^sOD$/jo/
+    - xform/^sa$/sa'/
+    - xform/^si$/shi'/
+    - xform/^su$/su'/
+    - xform/^se$/se'/
+    - xform/^so$/so'/
+    - xform/^sA$/sha'/
+    - xform/^sU$/shu'/
+    - xform/^sO$/sho'/
+    - xform/^saD$/za'/
+    - xform/^siD$/ji'/
+    - xform/^suD$/zu'/
+    - xform/^seD$/ze'/
+    - xform/^soD$/zo'/
+    - xform/^sAD$/ja'/
+    - xform/^sUD$/ju'/
+    - xform/^sOD$/jo'/
 
-    - xform/^ta$/ta/
-    - xform/^ti$/chi/
-    - xform/^tu$/tsu/
-    - xform/^te$/te/
-    - xform/^to$/to/
-    - xform/^tA$/cha/
-    - xform/^tU$/chu/
-    - xform/^tO$/cho/
-    - xform/^taD$/da/
-    - xform/^tiD$/ji/
-    - xform/^tuD$/zu/
-    - xform/^teD$/de/
-    - xform/^toD$/do/
-    - xform/^tAD$/dya/
-    - xform/^tUD$/dyu/
-    - xform/^tOD$/dyo/
+    - xform/^ta$/ta'/
+    - xform/^ti$/chi'/
+    - xform/^tu$/tsu'/
+    - xform/^te$/te'/
+    - xform/^to$/to'/
+    - xform/^tA$/cha'/
+    - xform/^tU$/chu'/
+    - xform/^tO$/cho'/
+    - xform/^taD$/da'/
+    - xform/^tiD$/ji'/
+    - xform/^tuD$/zu'/
+    - xform/^teD$/de'/
+    - xform/^toD$/do'/
+    - xform/^tAD$/dya'/
+    - xform/^tUD$/dyu'/
+    - xform/^tOD$/dyo'/
 
-    - xform/^na$/na/
-    - xform/^ni$/ni/
-    - xform/^nu$/nu/
-    - xform/^ne$/ne/
-    - xform/^no$/no/
-    - xform/^nA$/nya/
-    - xform/^nU$/nyu/
-    - xform/^nO$/nyo/
+    - xform/^na$/na'/
+    - xform/^ni$/ni'/
+    - xform/^nu$/nu'/
+    - xform/^ne$/ne'/
+    - xform/^no$/no'/
+    - xform/^nA$/nya'/
+    - xform/^nU$/nyu'/
+    - xform/^nO$/nyo'/
 
-    - xform/^ha$/ha/
-    - xform/^hi$/hi/
-    - xform/^hu$/hu/
-    - xform/^he$/he/
-    - xform/^ho$/ho/
-    - xform/^hA$/hya/
-    - xform/^hU$/hyu/
-    - xform/^hO$/hyo/
-    - xform/^haD$/ba/
-    - xform/^hiD$/bi/
-    - xform/^huD$/bu/
-    - xform/^heD$/be/
-    - xform/^hoD$/bo/
-    - xform/^hAD$/bya/
-    - xform/^hUD$/byu/
-    - xform/^hOD$/byo/
-    - xform/^haH$/pa/
-    - xform/^hiH$/pi/
-    - xform/^huH$/pu/
-    - xform/^heH$/pe/
-    - xform/^hoH$/po/
-    - xform/^hAH$/pya/
-    - xform/^hUH$/pyu/
-    - xform/^hOH$/pyo/
+    - xform/^ha$/ha'/
+    - xform/^hi$/hi'/
+    - xform/^hu$/hu'/
+    - xform/^he$/he'/
+    - xform/^ho$/ho'/
+    - xform/^hA$/hya'/
+    - xform/^hU$/hyu'/
+    - xform/^hO$/hyo'/
+    - xform/^haD$/ba'/
+    - xform/^hiD$/bi'/
+    - xform/^huD$/bu'/
+    - xform/^heD$/be'/
+    - xform/^hoD$/bo'/
+    - xform/^hAD$/bya'/
+    - xform/^hUD$/byu'/
+    - xform/^hOD$/byo'/
+    - xform/^haH$/pa'/
+    - xform/^hiH$/pi'/
+    - xform/^huH$/pu'/
+    - xform/^heH$/pe'/
+    - xform/^hoH$/po'/
+    - xform/^hAH$/pya'/
+    - xform/^hUH$/pyu'/
+    - xform/^hOH$/pyo'/
 
-    - xform/^ma$/ma/
-    - xform/^mi$/mi/
-    - xform/^mu$/mu/
-    - xform/^me$/me/
-    - xform/^mo$/mo/
-    - xform/^mA$/mya/
-    - xform/^mU$/myu/
-    - xform/^mO$/myo/
+    - xform/^ma$/ma'/
+    - xform/^mi$/mi'/
+    - xform/^mu$/mu'/
+    - xform/^me$/me'/
+    - xform/^mo$/mo'/
+    - xform/^mA$/mya'/
+    - xform/^mU$/myu'/
+    - xform/^mO$/myo'/
 
-    - xform/^ya$/ya/
-    - xform/^yi$/yi/
-    - xform/^yu$/yu/
-    - xform/^ye$/ye/
-    - xform/^yo$/yo/
+    - xform/^ya$/ya'/
+    - xform/^yi$/yi'/
+    - xform/^yu$/yu'/
+    - xform/^ye$/ye'/
+    - xform/^yo$/yo'/
 
-    - xform/^ra$/ra/
-    - xform/^ri$/ri/
-    - xform/^ru$/ru/
-    - xform/^re$/re/
-    - xform/^ro$/ro/
-    - xform/^rA$/rya/
-    - xform/^rU$/ryu/
-    - xform/^rO$/ryo/
+    - xform/^ra$/ra'/
+    - xform/^ri$/ri'/
+    - xform/^ru$/ru'/
+    - xform/^re$/re'/
+    - xform/^ro$/ro'/
+    - xform/^rA$/rya'/
+    - xform/^rU$/ryu'/
+    - xform/^rO$/ryo'/
 
-    - xform/^wa$/wa/
-    - xform/^wi$/wi/
-    - xform/^wu$/wu/
-    - xform/^we$/we/
-    - xform/^wo$/wo/
+    - xform/^wa$/wa'/
+    - xform/^wi$/wi'/
+    - xform/^wu$/wu'/
+    - xform/^we$/we'/
+    - xform/^wo$/wo'/
   output_format:
-    - "erase/^([ZysthwkrnmAUOHLD])$/" # 不能只有輔音或修飾符號
-    - "erase/^(([ZysthwkrnmAUONauoieHSLD])*[S]([ZysthwkrnmAUONauoieHSLD])*)$/" # 促音不能接任何其它音
-    - "erase/^([Zysthwkrnm][HLD])$/" # 修飾符號不能只接輔音
-    - "erase/^([Zaeiouywrnm]+[D])$/" # 不能濁化的音
-    - "erase/^([Zaeiouystwkrnm]+[H])$/" # 不能半濁化的音
-    - "erase/^([Z][ysthwkrnm])$/" # 零声母不能接輔音
+    - "erase/^([A-Za-z]+)$/"
   prompt_format:
     - "xform/^(.*)$/[$1]/"
 
 translator:
-  dictionary: nihongo-r
+  dictionary: nihonchord
   prism: nihonchord
   spelling_hints: 4
   comment_format:
@@ -238,7 +233,7 @@ recognizer:
     reverse_lookup: "`[a-z]*$"
 
 reverse_lookup:
-  dictionary: nihongo-r
+  dictionary: nihonchord
   enable_completion: true
   prefix: "`"
   tips: 〔NihonChord〕
@@ -251,4 +246,4 @@ punctuator:
     ";" : ["；", "："]
     "[" : ["「", "『"]
     "]" : ["」", "』"]
-
+
