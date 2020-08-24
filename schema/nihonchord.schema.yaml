@@ -53,8 +53,6 @@ editor:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
-  algebra:
-    - erase/^xx$/
 
 chord_composer:
   alphabet: "uiophjklnmqwerasdzxfgcv"
@@ -85,6 +83,7 @@ chord_composer:
 
 
     - xform/^ZN$/n/
+    - xform/^N$/n/
     - xform/^Za$/a/
     - xform/^Zi$/i/
     - xform/^Zu$/u/
@@ -209,13 +208,23 @@ chord_composer:
     - xform/^we$/we/
     - xform/^wo$/wo/
   output_format:
-    # - "erase/^([A-Za-z]+)$/"
-  prompt_format:
+    - "erase/^([ZysthwkrnmAUOHLD])$/" # 不能只有輔音或修飾符號
+    - "erase/^(([ZysthwkrnmAUONauoieHSLD])*[S]([ZysthwkrnmAUONauoieHSLD])*)$/" # 促音不能接任何其它音
+    - "erase/^([Zysthwkrnm][HLD])$/" # 修飾符號不能只接輔音
+    - "erase/^([Zaeiouywrnm]+[D])$/" # 不能濁化的音
+    - "erase/^([Zaeiouystwkrnm]+[H])$/" # 不能半濁化的音
+    - "erase/^([Z][ysthwkrnm])$/" # 零声母不能接輔音
+  prompt_format:
     - "xform/^(.*)$/[$1]/"
 
 translator:
   dictionary: nihongo-r
   prism: nihonchord
+  spelling_hints: 4
+  comment_format:
+    - 'xlit|q|ー|'
+  preedit_format:
+    - 'xlit|q|ー|'
 
 punctuator:
   import_preset: default
@@ -227,6 +236,12 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*$"
+
+reverse_lookup:
+  dictionary: nihongo-r
+  enable_completion: true
+  prefix: "`"
+  tips: 〔NihonChord〕
 
 punctuator:
   half_shape:
