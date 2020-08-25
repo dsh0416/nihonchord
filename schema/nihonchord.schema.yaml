@@ -338,10 +338,16 @@ reverse_lookup:
 
 punctuator:
   half_shape:
-    "," : ["、", "＜"]
-    "." : ["。", "＞"]
-    "/" : ["・", "？"]
-    ";" : ["；", "："]
-    "[" : ["「", "『"]
-    "]" : ["」", "』"]
+    "," : { commit: 、 }
+    "." : { commit: 。 }
+    "<" : { commit: ＜ }
+    ">" : { commit: ＞ }
+    "/" : { commit: ・ }
+    "?" : { commit: ？ }
+    ";" : { commit: ； }
+    ":" : { commit: ： }
+    "[" : { commit: 「 }
+    "]" : { commit: 」 }
+    "{" : { commit: 『 }
+    "}" : { commit: 』 }
 
