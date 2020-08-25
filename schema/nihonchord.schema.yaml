@@ -124,6 +124,9 @@ chord_composer:
     - xform/^saD$/za'/
     - xform/^siD$/sji'/
     - xform/^suD$/szu'/
+    - xform/^sAD$/sji'lya/
+    - xform/^sUD$/sji'lyu/
+    - xform/^sOD$/sji'lyo/
     - xform/^seD$/ze'/
     - xform/^soD$/zo'/
     - xform/^seH$/ce'/
@@ -140,9 +143,9 @@ chord_composer:
     - xform/^tuD$/tzu'/
     - xform/^teD$/de'/
     - xform/^toD$/do'/
-    - xform/^tAD$/da'lya'/
-    - xform/^tUD$/da'lyu'/
-    - xform/^tOD$/da'lyo'/
+    - xform/^tAD$/tji'lya'/
+    - xform/^tUD$/tji'lyu'/
+    - xform/^tOD$/tji'lyo'/
 
     - xform/^na$/na'/
     - xform/^ni$/ni'/
