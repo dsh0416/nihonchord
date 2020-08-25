@@ -114,38 +114,38 @@ chord_composer:
     - xform/^keH$/nge'/
     - xform/^koH$/ngo'/
     - xform/^sa$/sa'/
-    - xform/^si$/shi'/
+    - xform/^si$/si'/
     - xform/^su$/su'/
     - xform/^se$/se'/
     - xform/^so$/so'/
-    - xform/^sA$/shi'lya'/
-    - xform/^sU$/shi'lyu'/
-    - xform/^sO$/shi'lyo'/
+    - xform/^sA$/si'lya'/
+    - xform/^sU$/si'lyu'/
+    - xform/^sO$/si'lyo'/
     - xform/^saD$/za'/
-    - xform/^siD$/sji'/
-    - xform/^suD$/szu'/
-    - xform/^sAD$/sji'lya/
-    - xform/^sUD$/sji'lyu/
-    - xform/^sOD$/sji'lyo/
+    - xform/^siD$/si'/
+    - xform/^suD$/su'/
+    - xform/^sAD$/zi'lya/
+    - xform/^sUD$/zi'lyu/
+    - xform/^sOD$/zi'lyo/
     - xform/^seD$/ze'/
     - xform/^soD$/zo'/
     - xform/^seH$/ce'/
     - xform/^ta$/ta'/
-    - xform/^ti$/chi'/
-    - xform/^tu$/tsu'/
+    - xform/^ti$/ti'/
+    - xform/^tu$/tu'/
     - xform/^te$/te'/
     - xform/^to$/to'/
-    - xform/^tA$/chi'lya'/
-    - xform/^tU$/chi'lyu'/
-    - xform/^tO$/chi'lyo'/
+    - xform/^tA$/ti'lya'/
+    - xform/^tU$/ti'lyu'/
+    - xform/^tO$/ti'lyo'/
     - xform/^taD$/da'/
-    - xform/^tiD$/tji'/
-    - xform/^tuD$/tzu'/
+    - xform/^tiD$/di'/
+    - xform/^tuD$/du'/
     - xform/^teD$/de'/
     - xform/^toD$/do'/
-    - xform/^tAD$/tji'lya'/
-    - xform/^tUD$/tji'lyu'/
-    - xform/^tOD$/tji'lyo'/
+    - xform/^tAD$/di'lya'/
+    - xform/^tUD$/di'lyu'/
+    - xform/^tOD$/di'lyo'/
 
     - xform/^na$/na'/
     - xform/^ni$/ni'/
@@ -258,24 +258,24 @@ translator:
     - xform/(^|\s)ge/げ/
     - xform/(^|\s)go/ご/
     - xform/(^|\s)sa/さ/
-    - xform/(^|\s)shi/し/
+    - xform/(^|\s)si/し/
     - xform/(^|\s)su/す/
     - xform/(^|\s)se/せ/
     - xform/(^|\s)so/そ/
     - xform/(^|\s)za/ざ/
-    - xform/(^|\s)sji/じ/
-    - xform/(^|\s)szu/ず/
+    - xform/(^|\s)zi/じ/
+    - xform/(^|\s)zu/ず/
     - xform/(^|\s)ze/ぜ/
     - xform/(^|\s)zo/ぞ/
     - xform/(^|\s)ce/せﾟ/
     - xform/(^|\s)ta/た/
-    - xform/(^|\s)chi/ち/
-    - xform/(^|\s)tsu/つ/
+    - xform/(^|\s)ti/ち/
+    - xform/(^|\s)tu/つ/
     - xform/(^|\s)te/て/
     - xform/(^|\s)to/と/
     - xform/(^|\s)da/だ/
-    - xform/(^|\s)tji/ぢ/
-    - xform/(^|\s)tzu/づ/
+    - xform/(^|\s)di/ぢ/
+    - xform/(^|\s)du/づ/
     - xform/(^|\s)de/で/
     - xform/(^|\s)do/ど/
     - xform/(^|\s)na/な/
