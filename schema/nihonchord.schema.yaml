@@ -57,7 +57,7 @@ speller:
 chord_composer:
   alphabet: "uiophjklnmqwerasdzxfgcvy"
   algebra:
-    - 'xlit|uiophjklnmqwerasdzxfgcvy|ZysthwkrnmAUONauoieHSLDY|'
+    - 'xlit|jiophuklnmqwerasdzxfgcvy|ZysthwkrnmAUONauoieHSLDY|'
     # Z: 零声母
     # A: 拗音 ya
     # U: 拗音 yu
