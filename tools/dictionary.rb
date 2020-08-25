@@ -104,8 +104,9 @@ result = ''
             next if ROMAJI[c.to_sym].nil? # and c =~ /[a-zA-Z0-9・ゞ!$&\(\)\*\+\-\*\\\,\.\/:;<>\?=]/
             # raise "#{row[0]} #{row[4]} #{c}" if ROMAJI[c.to_sym].nil?
             ROMAJI[c.to_sym]
-        end.join(' ')
-        result << "#{row[4]}\t#{pro}\n"
+        end
+        pro_text = pro.compact.join(' ')
+        result << "#{row[4]}\t#{pro_text}\n" unless pro_text.empty?
     end
 end
 
