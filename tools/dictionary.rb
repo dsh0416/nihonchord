@@ -2,7 +2,7 @@ require 'erb'
 require 'csv'
 
 ROMAJI = {
-"っ": 'ltsu',
+"っ": 'ltu',
 "ぁ": 'la',
 "ぃ": 'li',
 "ぅ": 'lu',

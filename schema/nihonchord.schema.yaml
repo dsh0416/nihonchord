@@ -73,7 +73,7 @@ chord_composer:
     - xform/^T$/ten'/
     - xform/^B$/symbol'/
     - xform/^Y$/long'/
-    - xform/^S$/ltsu'/
+    - xform/^S$/ltu'/
     - xform/^ZaL$/la'/
     - xform/^ZiL$/li'/
     - xform/^ZuL$/lu'/
@@ -84,7 +84,7 @@ chord_composer:
     - xform/^ZOL$/lyo'/
     - xform/^kaL$/lka'/
     - xform/^keL$/lke'/
-    - xform/^tuL$/ltsu'/
+    - xform/^tuL$/ltu'/
     - xform/^tuL$/lwa'/
 
     - xform/^ZN$/n'/
@@ -232,7 +232,7 @@ translator:
     - xform/(^|\s)ten/・/
     - xform/(^|\s)symbol/々/
     - xform/(^|\s)long/ー/
-    - xform/(^|\s)ltsu/っ/
+    - xform/(^|\s)ltu/っ/
     - xform/(^|\s)long/ー/
     - xform/(^|\s)la/ぁ/
     - xform/(^|\s)li/ぃ/
