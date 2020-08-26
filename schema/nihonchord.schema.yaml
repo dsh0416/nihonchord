@@ -55,9 +55,9 @@ speller:
   delimiter: " '"
 
 chord_composer:
-  alphabet: "uiophjklnmqwerasdzxfgcvy"
+  alphabet: "jiophuklnmqwerasdzxfgcvytb"
   algebra:
-    - 'xlit|jiophuklnmqwerasdzxfgcvy|ZysthwkrnmAUONauoieHSLDY|'
+    - 'xlit|jiophuklnmqwerasdzxfgcvytb|ZysthwkrnmAUONauoieHSLDYTB|'
     # Z: 零声母
     # A: 拗音 ya
     # U: 拗音 yu
@@ -67,7 +67,11 @@ chord_composer:
     # L: ちさい
     # D: 濁音
     # Y: ー
+    # T: ・
+    # B: 踊り字
 
+    - xform/^T$/ten'/
+    - xform/^B$/symbol'/
     - xform/^Y$/long'/
     - xform/^S$/ltsu'/
     - xform/^ZaL$/la'/
@@ -122,8 +126,8 @@ chord_composer:
     - xform/^sU$/si'lyu'/
     - xform/^sO$/si'lyo'/
     - xform/^saD$/za'/
-    - xform/^siD$/si'/
-    - xform/^suD$/su'/
+    - xform/^siD$/zi'/
+    - xform/^suD$/zu'/
     - xform/^sAD$/zi'lya/
     - xform/^sUD$/zi'lyu/
     - xform/^sOD$/zi'lyo/
@@ -225,6 +229,9 @@ translator:
   prism: nihonchord
   spelling_hints: 4
   comment_format:
+    - xform/(^|\s)ten/・/
+    - xform/(^|\s)symbol/々/
+    - xform/(^|\s)long/ー/
     - xform/(^|\s)ltsu/っ/
     - xform/(^|\s)long/ー/
     - xform/(^|\s)la/ぁ/

@@ -90,6 +90,7 @@ ROMAJI = {
 "ー": 'long',
 'ゐ': 'u li',
 'ゑ': 'u le',
+'・': 'ten',
 }
 
 renderer = ERB.new(File.read('templates/dictionary.erb'))
@@ -101,7 +102,7 @@ result = ''
     csv = CSV.read(file, col_sep:"\t", headers: false)
     csv.each do |row|
         pro = row[0].split('').map do |c|
-            next if ROMAJI[c.to_sym].nil? # and c =~ /[a-zA-Z0-9・ゞ!$&\(\)\*\+\-\*\\\,\.\/:;<>\?=]/
+            next if ROMAJI[c.to_sym].nil? # and c =~ /[a-zA-Z0-9ゞ!$&\(\)\*\+\-\*\\\,\.\/:;<>\?=]/
             # raise "#{row[0]} #{row[4]} #{c}" if ROMAJI[c.to_sym].nil?
             ROMAJI[c.to_sym]
         end
