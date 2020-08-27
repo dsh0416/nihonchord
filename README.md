@@ -130,4 +130,4 @@ Public Domain Dataです。使用・変更・配布に関しては一切の制�
 
 **請確保使用 繁體 模式，繁體模式下詞典已經使用了日本漢字，簡體模式會被 opencc 錯誤轉換。**
 
-![Keyboard Layout](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/layout.png)
+[![Keyboard Layout](https://raw.githubusercontent.com/dsh0416/nihonchord/master/misc/layout.png)](http://www.keyboard-layout-editor.com/#/gists/faaa6a6907bb2595c252be5d22d258c5)
