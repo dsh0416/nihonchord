@@ -219,6 +219,10 @@ chord_composer:
     - xform/^wu$/u'/
     - xform/^we$/u'le'/
     - xform/^wo$/wo'/
+
+    - xform/^kAD$/gi'lya'/
+    - xform/^kUD$/gi'lyu'/
+    - xform/^kOD$/gi'lyo'/
   output_format:
     - "erase/^([A-Za-z]+)$/"
   prompt_format:
